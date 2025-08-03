@@ -1,6 +1,6 @@
-* {
+/* * {
   border: solid .5px red;
-}
+} */
 
 body {
   margin: 0;
@@ -29,6 +29,16 @@ header {
   border-radius: 50px;
 }
 
+.header-accessabilityButtons {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1em;
+}
+
+.header-button {
+  flex: 1 1 auto;
+}
+
 .intro {
   display: flex;
   flex-direction: column;
@@ -53,7 +63,8 @@ header {
 }
 
 .intro-addInfo {
-  background-color: brown;
+  background-color: burlywood;
   outline: auto;
-  min-width: 180px;
+  max-width: 185px;
+  text-align: center;
 }
