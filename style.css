@@ -1,6 +1,6 @@
-* {
+/* * {
   border: solid .5px red;
-}
+} */
 
 body {
   margin: 0;
@@ -8,12 +8,15 @@ body {
 
 header {
   display: flex;
-  position: sticky;
+  position: fixed;
+  z-index: 10;
   justify-content: space-between;
   align-items: center;
-  background-color: yellow;
+  background-color: rgba(255, 255, 0, .5);
   padding-left: 2%;
   padding-right: 2%;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .header-title-div {
@@ -47,7 +50,7 @@ header {
 
 .intro img {
   width: 100%;
-  max-height: 300px;
+  max-height: 500px;
   object-fit: cover;
 }
 
@@ -93,10 +96,13 @@ header {
   max-height: 900px;
   max-width: 200px;
   border-radius: 10px;
-  flex: 1 1 auto;
+  flex: 1 1 auto; 
+  text-align: center;
+  justify-content: center;
+  border: solid .5px black;
 }
 
 .clubs-orgs img{
-  width: 100%;
-  border-radius: 10px;
+  width: 50%;
+  border-radius: 100px;
 }
