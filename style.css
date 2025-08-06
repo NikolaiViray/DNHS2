@@ -1,6 +1,6 @@
-* {
+/* * {
   border: solid .5px red;
-}
+} */
 
 body {
   margin: 0;
@@ -129,39 +129,69 @@ header {
 .school-info {
   flex: 1 1 auto;
   width: 50%;
+  align-items: center;
 }
 
 .school-info img {
-  width: 20vh;
-  height: 20vh;
-  border-radius: 100px;
+  width: 25vh;
+  height: 25vh;
+  border-radius: 1000px;
+}
+
+.school-info h2 {
+  font-size: 2.5em;
+}
+
+.school-info p {
+  font-size: 1.1em;
 }
 
 .collage {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  max-height: 700px;
-  flex: 1 1 auto;
-  width: 70%;
+  display: grid;
+  width: 60%;
+  gap: .1em;
+
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+
+
+  grid-template-areas: 
+    "one two"
+    "one three"
+    "four four"
+  ;
 }
 
+.collage > div {
+  height: auto;
+}
 .collage img {
+  width: 100%;
   object-fit: cover;
-
-
+  max-height: 600px;
+  display: block;
 }
 
-.collage-div1 {
-  height: 70%;
-  max-width: 20%;
+.uniqueIMG {
+  height: 200px;
 }
 
-.collage-div2 {
-  height: 70%;
-  max-width: 20%;
+.uniqueIMG1 {
+  height: 100%;
 }
 
-.collage-div3 {
-  height: 30%;
+.collage :nth-child(1) {
+  grid-area: one;
+}
+
+.collage :nth-child(2) {
+  grid-area: two;
+}
+
+.collage :nth-child(3) {
+  grid-area: three;
+}
+
+.collage :nth-child(4) {
+  grid-area: four;
 }
