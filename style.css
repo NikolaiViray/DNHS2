@@ -143,15 +143,16 @@ header {
 }
 
 .school-info p {
-  font-size: 1.1em;
+  font-size: 1.5em;
 }
 
 .collage {
   display: grid;
   width: 60%;
+  height: auto;
   gap: .1em;
 
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: auto auto auto;
   grid-template-columns: repeat(2, 1fr);
 
 
