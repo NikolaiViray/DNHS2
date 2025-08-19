@@ -196,3 +196,29 @@ header {
 .collage :nth-child(4) {
   grid-area: four;
 }
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+  width: 80%;
+  margin-top: 5%;
+}
+
+.gallery-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+}
+
+.gallery-content-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.gallery-content img {
+  object-fit: cover;
+  width: 50%;
+  height: 300px;
+}
+
