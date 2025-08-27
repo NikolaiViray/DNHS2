@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  width: 100%;
 }
 
 header {
@@ -13,12 +14,14 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: rgba(255, 255, 0, .5);
-  padding-left: 2%;
-  padding-right: 2%;
   padding-top: 1%;
   padding-bottom: 1%;
-  width: 100%;
+  width: 100vw;
   box-sizing: border-box;
+}
+
+header > * {
+  margin: 0 2%; /* space on each side of items */
 }
 
 .header-title-div {
@@ -281,4 +284,68 @@ footer p {
 
 .footer-addInfo h1{
   font-size: 2em;
+}
+
+
+
+@media (max-width: 1174px) {
+
+  .clubs-orgs-title {
+    margin-top: 20%;
+  }
+
+  .clubs-orgs-div {
+    margin-top: 5%;
+  }
+
+  .info-collage {
+    margin-top: 20%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .school-info {
+    text-align: center;
+  }
+
+  .gallery {
+    margin-top: 20%;
+  }
+
+  .gallery-content {
+    flex-direction: column;
+  }
+
+  .gallery-content img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .gallery-content .text {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 2em;
+    margin-top: -5%;
+  }
+
+  .footer-addInfo {
+    gap: 3em;
+  }
+  
+
+}
+
+@media (max-width: 425px) {
+
+  .main-content {
+    margin-top: 50%;
+  }
+
+  .collage {
+    width: 85%;
+  }
+
+
 }
