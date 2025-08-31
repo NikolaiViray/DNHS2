@@ -347,5 +347,14 @@ footer p {
     width: 85%;
   }
 
+  .footer-addInfo {
+    gap: 0;
+    font-size: .1em;
+  }
+
+  footer p {
+    font-size: .5em;
+  }
+
 
 }
