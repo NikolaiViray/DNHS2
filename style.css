@@ -347,14 +347,41 @@ footer p {
     width: 95%;
   }
 
-  .school-info {
-    width: 95%;
+  .footer-addInfo {
+    gap: 0;
+    font-size: .1em;
+  }
+
+  footer p {
+    font-size: .5em;
   }
 
   .gallery-content .text p {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
   
+
+  .footer-addInfo {
+    gap: 0;
+    font-size: .1em;
+  }
+
+  footer p {
+    font-size: .5em;
+  }
+
+  .footer-addInfo {
+    gap: 0;
+    font-size: .1em;
+  }
+
+  footer p {
+    font-size: .5em;
+  }
+
+  .school-info {
+    width: 90%;
+  }
 
 
 }
