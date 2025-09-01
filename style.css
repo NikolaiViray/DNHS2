@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  width: 100%;
+  width: 100vw;
 }
 
 header {
@@ -344,8 +344,17 @@ footer p {
   }
 
   .collage {
-    width: 85%;
+    width: 95%;
   }
+
+  .school-info {
+    width: 95%;
+  }
+
+  .gallery-content .text p {
+    font-size: 1.3em;
+  }
+  
 
 
 }
