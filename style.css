@@ -43,7 +43,7 @@ header > * {
   gap: 1em;
 }
 
-.header-button {
+.header-link {
   flex: 1 1 auto;
 }
 
@@ -64,7 +64,7 @@ header > * {
   gap: 1em;
   max-width: 1300px;
   width: 100%;
-  max-height: 600px;
+  max-height: 1000px;
   flex-wrap: wrap;
   margin-left: 15%;
   margin-right: 15%;
@@ -239,8 +239,6 @@ header > * {
   box-shadow: 1px 1px 20px black;
 }
 
-
-
 .gallery-content .text {
   background-color: burlywood;
   border-radius: 20px;
@@ -306,6 +304,7 @@ footer p {
 
   .school-info {
     text-align: center;
+    width: 90%;
   }
 
   .gallery {
@@ -330,10 +329,17 @@ footer p {
     margin-top: -5%;
   }
 
+  .gallery-content .text p {
+    font-size: clamp(1rem, 5vw, 2rem);
+  }
+  
   .footer-addInfo {
     gap: 3em;
   }
-  
+
+  .footer-info {
+    font-size: clamp(.5rem, 2vw, 3rem);
+  }
 
 }
 
@@ -354,6 +360,7 @@ footer p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: clamp(1rem, 2vw, 3rem);
   }
 
   .collage {
