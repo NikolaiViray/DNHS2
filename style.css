@@ -343,40 +343,25 @@ footer p {
     margin-top: 50%;
   }
 
+  .footer-addInfo {
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    max-height: 1000px;
+  }
+
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .collage {
     width: 95%;
   }
 
-  .footer-addInfo {
-    gap: 0;
-    font-size: .1em;
-  }
-
-  footer p {
-    font-size: .5em;
-  }
-
   .gallery-content .text p {
     font-size: 1.2em;
-  }
-  
-
-  .footer-addInfo {
-    gap: 0;
-    font-size: .1em;
-  }
-
-  footer p {
-    font-size: .5em;
-  }
-
-  .footer-addInfo {
-    gap: 0;
-    font-size: .1em;
-  }
-
-  footer p {
-    font-size: .5em;
   }
 
   .school-info {
