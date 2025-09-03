@@ -361,7 +361,7 @@ footer p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: clamp(2rem, 2vw, 3rem);
+    font-size: clamp(1rem, 2vw, 3rem);
   }
 
   .intro-addInfo {
