@@ -67,7 +67,7 @@ header {
 
 .intro-addInfo {
   background-color: burlywood;
-  outline: auto;
+  border: solid .5px black;
   max-width: 185px;
   text-align: center;
 }
