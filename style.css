@@ -355,6 +355,11 @@ footer p {
     font-size: 14px;
   }
 
+  .intro-addInfo-div {
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
 
 @media (max-width: 425px) {
