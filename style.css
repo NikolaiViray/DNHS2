@@ -83,6 +83,10 @@ header > * {
   box-shadow: 5px 5px 10px black;
 }
 
+.intro-addInfo p {
+  font-size: clamp(1rem, .9vw, 2rem);
+}
+
 .main-content {
   display: flex;
   flex-direction: column;
