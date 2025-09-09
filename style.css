@@ -285,7 +285,7 @@ footer p {
   font-size: 2em;
 }
 
-
+/* Mobile tablets */
 
 @media (max-width: 1174px) {
 
@@ -343,6 +343,8 @@ footer p {
   }
 
 }
+
+/* Mobile phones */
 
 @media (max-width: 425px) {
 
